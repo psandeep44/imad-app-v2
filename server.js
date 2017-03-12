@@ -7,11 +7,11 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 
 var config = {
-    user: 'postgres',
-    database: 'nodedb',
-    host: 'localhost',
+    user: 'psandeep44',
+    database: 'psandeep44',
+    host: 'db.imad.hasura-app.io',
     port: '5432',
-    password: 'root'
+    password: 'process.env.DB_PASSWORD'
 };
 
 var app = express();
